@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Acount Deposite And Withdraw</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <section id="container">
+        <h1 class="text">Welcome To Rupali Bank</h1>
+        <div class="login">
+            <h1>Login Your Account</h1>
+            <input type="text" placeholder="enter your name"> <br><br>
+            <input type="password" name="" id="" placeholder="enter your password"><br><br>
+            <button id="btn-login" onclick="">Login</button>
+        </div>
+    </section>
+    <section class="tranzactionArea" id="tranzactionArea">
+       <div class="status">
+        <div class="Deposite" id="Deposite">
+            <h1>Deposite</h1>
+            <p>$ <span id="currentDeposite"> 00</span></p>
+            
+           </div>
+           <div class="Withdraw">
+            <h1>Withdraw</h1>
+            <p>$ <span id="withdraw"> 00</span></p>
+           </div>
+           <div class="Balance">
+            <h1>Balance</h1>
+            <p>$ <span id="currentbalance">1500</span></p>
+           </div>
+       </div>
+        <div class="accessMethod">
+            <div class="DepositeFrist" id="DepositeFrist">
+                <h1>Deposite</h1>
+                <input type="text" id="depositeAmount" placeholder="your deposite amount"> <br> <br>
+                <button class="btn-Deposite" id="btn-Deposite">Deposite</button>
+            </div>
+            <div class="WithdrawFrist"> 
+                <h1>Withdraw</h1>
+                <input type="text" id="withdrawAmount" placeholder="your withdraw amount"><br><br>
+                <button class="btn-Withdraw" id="btn-Withdraw">Withdraw</button>
+            </div>
+
+         </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>
